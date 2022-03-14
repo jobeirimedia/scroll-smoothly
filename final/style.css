@@ -1,0 +1,84 @@
+:root {
+  --dark-blue: #01203f;
+  --dark-green: #00250f;
+  --dark-brown: #250e00;
+  --dark-purple: #25001c;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+/* you can find the started code in the description of this video */
+/* let's get started */
+
+.header {
+  height: 100vh;
+  background-image: url(./img//sky.jpg);
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  padding: 3rem 5rem;
+  font-size: 3rem;
+  cursor: pointer;
+  border: 0.1rem solid black;
+  border-radius: 0.8rem;
+  background: transparent;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn:not(:last-child) {
+  margin-right: 1rem;
+}
+
+/* DONE */
+
+.section {
+  height: 100vh;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.section--1 {
+  background-color: var(--dark-blue);
+}
+
+.section--2 {
+  background-color: var(--dark-green);
+}
+
+.section--3 {
+  background-color: var(--dark-brown);
+}
+
+.section--4 {
+  background-color: var(--dark-purple);
+}
+
+/* DONE */
